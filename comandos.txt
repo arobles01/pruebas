@@ -1,0 +1,51 @@
+    1  pwd
+    2  sudo yum  install epel-release y
+    3  exit
+    4  sudo yum install git -ygit
+    5  pwd
+    6  cd
+    7  sudo yum install git -y
+    8  pwd
+    9  mkdir pruebas
+   10  cd pruebas
+   11  ls -ltr
+   12  git ini
+   13  git init
+   14  git config --global user.name "angelrf72@gmail.com"
+   15  pwd
+   16  git config --global user.email "angelrf72@gmail.com"
+   17  git config --global user.name "arobles01"
+   18  git init
+   19  pwd
+   20  ls -ltr
+   21  ls -a
+   22  git remote add origin https://github.com/arobles01/pruebas.git
+   23  ls -ltr
+   24  ls
+   25  cd ..
+   26  ls -ltr
+   27  cd pruebas
+   28  cat /etc/motd >>README.md
+   29  ls -ltr
+   30  git add README.md
+   31  git push -u origin master
+   32  ls -ltr
+   33  ls -ltra
+   34  cd .git
+   35  ls
+   36  ls -ltr
+   37  cat config
+   38  cd ..
+   39  ls -ltr
+   40  git commit -m "Primer archivo"
+   41  git push -u origin master
+   42  exit
+   43  pwd
+   44  cd
+   45  ls -ltr
+   46  cd pruebas
+   47  git branch -a
+   48  git checkout -b comandos
+   49  git branch -a
+   50  ls -ltr
+   51  history >>  comandos.txt
